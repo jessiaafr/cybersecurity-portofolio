@@ -4,357 +4,961 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cyber Security Portfolio | Jessica Ausilia</title>
+    <title>Cyber Security Portfolio | Jessica Ausilia Afriani</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <nav class="navbar">
-
-        <div class="logo">
-            Jessica Ausilia
-        </div>
-
-        <div class="nav-menu">
-            <a href="#tentang">Tentang</a>
-            <a href="#fokus">Fokus Pembelajaran</a>
-            <a href="#praktik">Praktik</a>
-            <a href="#tools">Tools</a>
-        </div>
-
-    </nav>
-
-
-    <!-- HERO -->
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <p class="label">
-                CYBER SECURITY PORTFOLIO
-            </p>
-
-            <h1>
-                Jessica Ausilia
-            </h1>
-
-            <h2>
-                S1 Sistem Informasi
-            </h2>
-
-            <p class="hero-text">
-                Sedang mengembangkan kemampuan di bidang Cyber Security
-                melalui Cyber Security Bootcamp di Visionet Data Internasional.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#praktik" class="button">
-                    Lihat Praktik
-                </a>
-
-                <a href="https://github.com/jessiaafr/cybersecurity-portofolio"
-                   target="_blank"
-                   class="button button-outline">
-                    GitHub Repository
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TENTANG -->
-    <section id="tentang" class="section">
-
-        <div class="section-title">
-            <span>01</span>
-            <h2>Tentang Portfolio</h2>
-        </div>
-
-        <p>
-            Repository ini berisi dokumentasi beberapa praktik lab yang
-            saya kerjakan selama proses pembelajaran sebagai bagian dari
-            pengembangan fundamental di bidang Cyber Security dan
-            Security Operations.
-        </p>
-
-    </section>
-
-
-    <!-- FOKUS PEMBELAJARAN -->
-    <section id="fokus" class="section">
-
-        <div class="section-title">
-            <span>02</span>
-            <h2>Fokus Pembelajaran</h2>
-        </div>
-
-
-        <div class="cards">
-
-            <div class="card">
-
-                <div class="card-number">
-                    01
-                </div>
-
-                <h3>
-                    Linux Fundamental
-                </h3>
-
-                <p>
-                    Mempelajari dasar penggunaan Linux, command line,
-                    user dan permission, serta beberapa konsep dasar
-                    yang mendukung aktivitas IT Security.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">
-                    02
-                </div>
-
-                <h3>
-                    Common Web Vulnerabilities
-                </h3>
-
-                <p>
-                    Mempelajari konsep dan praktik beberapa kerentanan
-                    umum pada aplikasi web melalui controlled lab
-                    environment.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="card-number">
-                    03
-                </div>
-
-                <h3>
-                    Network Security & Traffic Analysis
-                </h3>
-
-                <p>
-                    Mempelajari dasar keamanan jaringan dan melakukan
-                    analisis network traffic untuk memahami pola
-                    komunikasi serta aktivitas yang mencurigakan.
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TOOLS -->
-    <section id="tools" class="section">
-
-        <div class="section-title">
-            <span>03</span>
-            <h2>Tools</h2>
-        </div>
-
-        <div class="tools">
-
-            <div class="tool">
-                Kali Linux
-            </div>
-
-            <div class="tool">
-                Wireshark
-            </div>
-
-            <div class="tool">
-                Burp Suite
-            </div>
-
-            <div class="tool">
-                OWASP ZAP
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- HANDS-ON PRACTICE -->
-    <section id="praktik" class="section">
-
-        <div class="section-title">
-            <span>04</span>
-            <h2>Hands-on Practice</h2>
-        </div>
-
-        <p class="section-description">
-            Dokumentasi praktik yang dilakukan selama Cyber Security
-            Bootcamp dalam authorized training atau controlled lab
-            environment.
-        </p>
-
-
-        <!-- LINUX -->
-
-        <div class="practice-card">
-
-            <div class="practice-info">
-
-                <span class="practice-number">
-                    01
-                </span>
-
-                <h3>
-                    Linux Fundamental
-                </h3>
-
-                <p>
-                    Praktik dasar Linux yang mencakup penggunaan command
-                    line, navigasi file dan direktori, user dan permission,
-                    serta beberapa command untuk mendukung aktivitas
-                    IT Security.
-                </p>
-
-            </div>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                Jessica<span>.</span>
+            </a>
+
+            <nav>
+                <a href="#focus">Fokus Pembelajaran</a>
+                <a href="#tools">Tools</a>
+                <a href="#practice">Hands-on Practice</a>
+                <a href="#purpose">Tujuan</a>
+                <a href="#documentation">Dokumentasi</a>
+            </nav>
 
             <a
-                href="01-linux-fundamental/Linux-Fundamental-Practice.pdf"
+                href="https://github.com/jessiaafr/cybersecurity-portofolio"
                 target="_blank"
-                class="report-button">
-
-                Lihat Laporan →
-
+                class="github-button"
+            >
+                GitHub
             </a>
 
         </div>
 
+    </header>
 
-        <!-- WEB SECURITY -->
 
-        <div class="practice-card">
+    <!-- ================= HERO ================= -->
 
-            <div class="practice-info">
+    <main>
 
-                <span class="practice-number">
-                    02
-                </span>
+        <section id="home" class="hero">
 
-                <h3>
-                    Common Web Vulnerabilities
-                </h3>
+            <div class="hero-container">
 
-                <p>
-                    Praktik untuk memahami beberapa kerentanan umum
-                    pada aplikasi web melalui controlled lab environment,
-                    termasuk proses pengujian dan analisis.
-                </p>
+                <div class="hero-content">
+
+                    <div class="hero-label">
+                        CYBER SECURITY PORTFOLIO
+                    </div>
+
+                    <h1>
+                        Jessica Ausilia
+                        <span>Afriani</span>
+                    </h1>
+
+                    <p class="hero-description">
+
+                        Halo, saya Jessica Ausilia Afriani, lulusan
+                        S1 Sistem Informasi dari Universitas Gunadarma
+                        yang saat ini sedang mengembangkan kemampuan
+                        di bidang Cyber Security melalui
+                        <strong>
+                            Cyber Security Bootcamp di Visionet Data
+                            Internasional Batch XIV
+                        </strong>.
+
+                    </p>
+
+                    <p class="hero-description">
+
+                        Repository ini berisi dokumentasi dari beberapa
+                        praktik lab yang saya kerjakan selama proses
+                        pembelajaran. Portfolio ini dibuat sebagai
+                        bentuk dokumentasi hands-on practice untuk
+                        memahami dasar keamanan sistem, aplikasi web,
+                        serta jaringan.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#practice"
+                            class="primary-button"
+                        >
+                            Lihat Hands-on Practice
+                        </a>
+
+                        <a
+                            href="https://github.com/jessiaafr/cybersecurity-portofolio"
+                            target="_blank"
+                            class="secondary-button"
+                        >
+                            GitHub ↗
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Visual -->
+
+                <div class="hero-visual">
+
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="terminal-title">
+                                cyber-security
+                            </div>
+
+                        </div>
+
+
+                        <div class="terminal-body">
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                whoami
+                            </p>
+
+                            <p class="terminal-output">
+                                Jessica Ausilia Afriani
+                            </p>
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                focus
+                            </p>
+
+                            <p class="terminal-output">
+                                Security Operations / SOC
+                            </p>
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                status
+                            </p>
+
+                            <p class="terminal-output">
+                                Cyber Security Bootcamp
+                            </p>
+
+                            <p>
+                                <span class="terminal-green">$</span>
+                                environment
+                            </p>
+
+                            <p class="terminal-output">
+                                Authorized Training Lab
+                            </p>
+
+                            <span class="cursor"></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <a
-                href="02-common-web-vulnerabilities/Common-Web-Vulnerabilities-Practice.pdf"
-                target="_blank"
-                class="report-button">
-
-                Lihat Laporan →
-
-            </a>
-
-        </div>
+        </section>
 
 
-        <!-- NETWORK -->
+        <!-- ================= FOKUS PEMBELAJARAN ================= -->
 
-        <div class="practice-card">
+        <section id="focus" class="section">
 
-            <div class="practice-info">
+            <div class="container">
 
-                <span class="practice-number">
-                    03
-                </span>
+                <div class="section-heading">
 
-                <h3>
-                    Network Security & Traffic Analysis
-                </h3>
+                    <span class="section-number">
+                        01
+                    </span>
 
-                <p>
-                    Praktik untuk memahami dasar keamanan jaringan dan
-                    melakukan analisis network traffic menggunakan
-                    Wireshark.
+                    <div>
+                        <p class="section-label">
+                            FOKUS PEMBELAJARAN
+                        </p>
+
+                        <h2>
+                            Fundamental Cyber Security
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <p class="section-introduction">
+
+                    Dalam proses pembelajaran, saya berfokus pada
+                    beberapa fundamental yang mendukung pemahaman
+                    di bidang <strong>Security Operations (SOC)</strong>,
+                    yaitu:
+
                 </p>
+
+
+                <div class="focus-grid">
+
+
+                    <!-- Linux -->
+
+                    <article class="focus-card">
+
+                        <div class="card-top">
+                            <span class="card-number">
+                                01
+                            </span>
+
+                            <span class="card-icon">
+                                &gt;_
+                            </span>
+                        </div>
+
+                        <h3>
+                            Linux Fundamental
+                        </h3>
+
+                        <p>
+
+                            Memahami dasar sistem operasi Linux,
+                            penggunaan command line, user dan
+                            permission, serta penggunaan Linux
+                            untuk mendukung proses analisis keamanan.
+
+                        </p>
+
+                    </article>
+
+
+                    <!-- Web -->
+
+                    <article class="focus-card">
+
+                        <div class="card-top">
+                            <span class="card-number">
+                                02
+                            </span>
+
+                            <span class="card-icon">
+                                &lt;/&gt;
+                            </span>
+                        </div>
+
+                        <h3>
+                            Common Web Vulnerabilities
+                        </h3>
+
+                        <p>
+
+                            Mempelajari konsep dan praktik beberapa
+                            kerentanan umum pada aplikasi web melalui
+                            controlled lab environment.
+
+                        </p>
+
+                    </article>
+
+
+                    <!-- Network -->
+
+                    <article class="focus-card">
+
+                        <div class="card-top">
+                            <span class="card-number">
+                                03
+                            </span>
+
+                            <span class="card-icon">
+                                ◌
+                            </span>
+                        </div>
+
+                        <h3>
+                            Network Security & Traffic Analysis
+                        </h3>
+
+                        <p>
+
+                            Mempelajari dasar keamanan jaringan serta
+                            melakukan analisis network traffic untuk
+                            memahami pola komunikasi dan mengidentifikasi
+                            aktivitas yang mencurigakan.
+
+                        </p>
+
+                    </article>
+
+
+                </div>
 
             </div>
 
-            <a
-                href="03-network-security-traffic-analysis/Network-Security-Traffic-Analysis-Practice.pdf"
-                target="_blank"
-                class="report-button">
-
-                Lihat Laporan →
-
-            </a>
-
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- STATUS -->
-    <section class="status">
+        <!-- ================= TOOLS ================= -->
 
-        <p class="label">
-            STATUS
-        </p>
+        <section id="tools" class="section tools-section">
 
-        <h2>
-            Cyber Security Bootcamp — Ongoing
-        </h2>
+            <div class="container">
 
-        <p>
-            Terus mengembangkan kemampuan melalui praktik,
-            analisis, dan pembelajaran secara berkelanjutan.
-        </p>
+                <div class="section-heading">
 
-    </section>
+                    <span class="section-number">
+                        02
+                    </span>
 
+                    <div>
 
-    <!-- DISCLAIMER -->
-    <section class="disclaimer">
+                        <p class="section-label">
+                            TOOLS YANG DIGUNAKAN
+                        </p>
 
-        <h3>
-            Disclaimer
-        </h3>
+                        <h2>
+                            Tools
+                        </h2>
 
-        <p>
-            Seluruh praktik yang didokumentasikan dalam portfolio ini
-            dilakukan pada authorized training atau controlled lab
-            environment untuk tujuan pembelajaran.
-        </p>
+                    </div>
 
-    </section>
+                </div>
 
 
-    <!-- FOOTER -->
+                <div class="tools-list">
+
+                    <div class="tool-item">
+
+                        <span class="tool-index">
+                            01
+                        </span>
+
+                        <div>
+                            <h3>Kali Linux</h3>
+                            <p>
+                                Security-focused Linux environment
+                                untuk praktik Cyber Security.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-item">
+
+                        <span class="tool-index">
+                            02
+                        </span>
+
+                        <div>
+                            <h3>Wireshark</h3>
+                            <p>
+                                Digunakan untuk melakukan analisis
+                                network traffic dan file PCAP.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-item">
+
+                        <span class="tool-index">
+                            03
+                        </span>
+
+                        <div>
+                            <h3>Burp Suite</h3>
+                            <p>
+                                Digunakan dalam praktik pengujian
+                                keamanan aplikasi web.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tool-item">
+
+                        <span class="tool-index">
+                            04
+                        </span>
+
+                        <div>
+                            <h3>OWASP ZAP</h3>
+                            <p>
+                                Digunakan untuk praktik web application
+                                security testing.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HANDS-ON PRACTICE ================= -->
+
+        <section id="practice" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            HANDS-ON PRACTICE
+                        </p>
+
+                        <h2>
+                            Praktik dan Dokumentasi
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <p class="section-introduction">
+
+                    Berikut merupakan beberapa praktik lab yang
+                    saya kerjakan selama proses pembelajaran.
+
+                </p>
+
+
+                <div class="practice-list">
+
+
+                    <!-- ================= PRACTICE 01 ================= -->
+
+                    <article class="practice-card">
+
+                        <div class="practice-number">
+                            01
+                        </div>
+
+                        <div class="practice-content">
+
+                            <div class="practice-category">
+                                LINUX FUNDAMENTAL
+                            </div>
+
+                            <h3>
+                                Linux Fundamental
+                            </h3>
+
+                            <p>
+
+                                Praktik dasar Linux yang mencakup
+                                penggunaan command line, navigasi
+                                file dan direktori, user dan permission,
+                                serta penggunaan beberapa command
+                                untuk mendukung proses troubleshooting
+                                dan analisis keamanan.
+
+                            </p>
+
+                            <div class="practice-tags">
+
+                                <span>Linux</span>
+                                <span>Command Line</span>
+                                <span>User & Permission</span>
+
+                            </div>
+
+                            <a
+                                href="01-linux-fundamental/Linux-Fundamental-Practice.pdf"
+                                target="_blank"
+                                class="report-link"
+                            >
+                                Lihat Laporan
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- ================= PRACTICE 02 ================= -->
+
+                    <article class="practice-card">
+
+                        <div class="practice-number">
+                            02
+                        </div>
+
+                        <div class="practice-content">
+
+                            <div class="practice-category">
+                                WEB SECURITY
+                            </div>
+
+                            <h3>
+                                Common Web Vulnerabilities
+                            </h3>
+
+                            <p>
+
+                                Praktik pada controlled lab environment
+                                untuk memahami beberapa kerentanan umum
+                                pada aplikasi web, cara kerentanan tersebut
+                                dapat terjadi, serta bagaimana aktivitasnya
+                                dapat diamati dan dianalisis.
+
+                            </p>
+
+                            <div class="practice-tags">
+
+                                <span>Web Security</span>
+                                <span>Burp Suite</span>
+                                <span>OWASP</span>
+
+                            </div>
+
+                            <a
+                                href="02-common-web-vulnerabilities/Common-Web-Vulnerabilities-Practice.pdf"
+                                target="_blank"
+                                class="report-link"
+                            >
+                                Lihat Laporan
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- ================= PRACTICE 03 ================= -->
+
+                    <article class="practice-card">
+
+                        <div class="practice-number">
+                            03
+                        </div>
+
+                        <div class="practice-content">
+
+                            <div class="practice-category">
+                                NETWORK SECURITY
+                            </div>
+
+                            <h3>
+                                Network Security & Traffic Analysis
+                            </h3>
+
+                            <p>
+
+                                Praktik untuk memahami dasar keamanan
+                                jaringan dan menganalisis network traffic
+                                menggunakan Wireshark dan Tshark.
+                                Analisis dilakukan dengan mengamati
+                                komunikasi jaringan, protokol, source
+                                dan destination, serta pola traffic
+                                yang berpotensi mencurigakan.
+
+                            </p>
+
+                            <div class="practice-tags">
+
+                                <span>Network</span>
+                                <span>Wireshark</span>
+                                <span>Tshark</span>
+                                <span>PCAP</span>
+
+                            </div>
+
+                            <a
+                                href="03-network-security-traffic-analysis/Network-Security-Traffic-Analysis-Practice.pdf"
+                                target="_blank"
+                                class="report-link"
+                            >
+                                Lihat Laporan
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TUJUAN PORTFOLIO ================= -->
+
+        <section id="purpose" class="section purpose-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            TUJUAN PORTFOLIO
+                        </p>
+
+                        <h2>
+                            Learning by Practice
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="purpose-content">
+
+                    <p>
+
+                        Portfolio ini dibuat untuk mendokumentasikan
+                        proses pembelajaran dan meningkatkan kemampuan
+                        praktis di bidang Cyber Security, khususnya
+                        sebagai dasar untuk berkembang di bidang
+                        <strong>Security Operations / SOC</strong>.
+
+                    </p>
+
+                    <p>
+
+                        Saya masih berada dalam tahap pembelajaran dan
+                        terus mengembangkan kemampuan melalui praktik,
+                        analisis, dan pembelajaran secara berkelanjutan.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATUS ================= -->
+
+        <section class="status-section">
+
+            <div class="container">
+
+                <div class="status-content">
+
+                    <div>
+
+                        <span class="section-label">
+                            STATUS
+                        </span>
+
+                        <h2>
+                            Cyber Security Bootcamp
+                        </h2>
+
+                        <p>
+                            Visionet Data Internasional — Batch XIV
+                        </p>
+
+                    </div>
+
+                    <div class="status-badge">
+                        <span></span>
+                        Ongoing
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DISCLAIMER ================= -->
+
+        <section class="disclaimer-section">
+
+            <div class="container">
+
+                <div class="disclaimer-box">
+
+                    <div class="disclaimer-title">
+                        DISCLAIMER
+                    </div>
+
+                    <div class="disclaimer-text">
+
+                        <p>
+
+                            Seluruh praktik keamanan yang didokumentasikan
+                            dalam repository ini dilakukan pada
+                            <strong>
+                                authorized training environment
+                                atau controlled lab environment
+                            </strong>
+                            untuk tujuan pembelajaran.
+
+                        </p>
+
+                        <p>
+
+                            Tidak ada pengujian yang dilakukan terhadap
+                            sistem atau jaringan tanpa izin.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= DOKUMENTASI ================= -->
+
+        <section id="documentation" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        05
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            DOKUMENTASI
+                        </p>
+
+                        <h2>
+                            Learning Documentation
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <p class="section-introduction">
+
+                    Dokumentasi berikut merupakan bagian dari proses
+                    pembelajaran selama mengikuti Cyber Security
+                    Bootcamp di Visionet Data Internasional.
+
+                </p>
+
+
+                <div class="documentation-grid">
+
+
+                    <!-- Zoom -->
+
+                    <article class="documentation-card">
+
+                        <div class="documentation-image">
+
+                            <img
+                                src="documentation/zoom-session.png"
+                                alt="Zoom Learning Session"
+                            >
+
+                        </div>
+
+                        <div class="documentation-content">
+
+                            <span>
+                                DOCUMENTATION
+                            </span>
+
+                            <h3>
+                                Zoom Learning Session
+                            </h3>
+
+                            <p>
+
+                                Dokumentasi kegiatan pembelajaran
+                                dan sesi bersama mentor selama
+                                Cyber Security Bootcamp.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- LMS -->
+
+                    <article class="documentation-card">
+
+                        <div class="documentation-image">
+
+                            <img
+                                src="documentation/lms-material.png"
+                                alt="LMS Learning Materials"
+                            >
+
+                        </div>
+
+                        <div class="documentation-content">
+
+                            <span>
+                                DOCUMENTATION
+                            </span>
+
+                            <h3>
+                                LMS Learning Materials
+                            </h3>
+
+                            <p>
+
+                                Dokumentasi materi dan aktivitas
+                                pembelajaran yang tersedia melalui LMS.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Lab -->
+
+                    <article class="documentation-card">
+
+                        <div class="documentation-image">
+
+                            <img
+                                src="documentation/lab-practice.png"
+                                alt="Hands-on Lab Practice"
+                            >
+
+                        </div>
+
+                        <div class="documentation-content">
+
+                            <span>
+                                DOCUMENTATION
+                            </span>
+
+                            <h3>
+                                Hands-on Lab
+                            </h3>
+
+                            <p>
+
+                                Dokumentasi praktik langsung pada
+                                authorized training atau controlled
+                                lab environment.
+
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer>
 
-        <p>
-            © 2026 Jessica Ausilia
-        </p>
+        <div class="container footer-container">
 
-        <p>
-            Cyber Security Portfolio
-        </p>
+            <div>
+
+                <h3>
+                    Jessica Ausilia Afriani
+                </h3>
+
+                <p>
+                    Cyber Security Portfolio
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a
+                    href="https://github.com/jessiaafr"
+                    target="_blank"
+                >
+                    GitHub
+                </a>
+
+                <a href="#home">
+                    Back to top ↑
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © 2026 Jessica Ausilia Afriani. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
 
     </footer>
 
