@@ -48,3 +48,11 @@ Saya masih berada dalam tahap pembelajaran dan terus mengembangkan kemampuan mel
 Seluruh praktik keamanan yang didokumentasikan dalam repository ini dilakukan pada **authorized training environment atau controlled lab environment** untuk tujuan pembelajaran.
 
 Tidak ada pengujian yang dilakukan terhadap sistem atau jaringan tanpa izin.
+
+## Dokumentasi
+
+Dokumentasi berikut merupakan bagian dari proses pembelajaran selama mengikuti Cyber Security Bootcamp di Visionet Data Internasional.
+
+**Zoom Learning Session**
+
+![Zoom Learning Session](./documentation/zoom-session.jpeg)
