@@ -1,6 +1,6 @@
 # Cyber Security Portfolio
 
-Halo, saya Jessica Ausilia Afriani, lulusan S1 Sistem Informasi dari Universitas Gunadarma yang saat ini sedang mengembangkan kemampuan di bidang Cyber Security melalui **Cyber Security Bootcamp di Visionet Data Internasional**.
+Halo, saya Jessica Ausilia Afriani, lulusan S1 Sistem Informasi dari Universitas Gunadarma yang saat ini sedang mengembangkan kemampuan di bidang Cyber Security melalui **Cyber Security Bootcamp di Visionet Data Internasional Batch XIV**.
 
 Repository ini berisi dokumentasi dari beberapa praktik lab yang saya kerjakan selama proses pembelajaran. Portfolio ini dibuat sebagai bentuk dokumentasi hands-on practice untuk memahami dasar keamanan sistem, aplikasi web, serta jaringan.
 
