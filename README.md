@@ -41,7 +41,7 @@ Saya masih berada dalam tahap pembelajaran dan terus mengembangkan kemampuan mel
 
 ## Status
 
-**Cyber Security Bootcamp — Ongoing**
+**Cyber Security Bootcamp - Saat Ini**
 
 ## Disclaimer
 
@@ -53,6 +53,6 @@ Tidak ada pengujian yang dilakukan terhadap sistem atau jaringan tanpa izin.
 
 Dokumentasi berikut merupakan bagian dari proses pembelajaran selama mengikuti Cyber Security Bootcamp di Visionet Data Internasional.
 
-**Zoom Learning Session**
+**Sesi Pembelajaran Zoom**
 
 ![Zoom Learning Session](./documentation/zoom-session.jpeg)
